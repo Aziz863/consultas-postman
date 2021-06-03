@@ -1,0 +1,242 @@
+1. https://restcountries.eu/rest/v2/all
+	
+[
+    {
+        "name": "Afghanistan",
+        "topLevelDomain": [
+            ".af"
+        ],
+        "alpha2Code": "AF",
+        "alpha3Code": "AFG",
+        "callingCodes": [
+            "93"
+        ],
+        "capital": "Kabul",
+        "altSpellings": [
+            "AF",
+            "Afġānistān"
+        ],
+
+2. https://restcountries.eu/rest/v2/name/spain
+	
+[
+    {
+        "name": "Spain",
+        "topLevelDomain": [
+            ".es"
+        ],
+        "alpha2Code": "ES",
+        "alpha3Code": "ESP",
+        "callingCodes": [
+            "34"
+        ],
+        "capital": "Madrid",
+        "altSpellings": [
+            "ES",
+            "Kingdom of Spain",
+            "Reino de España"
+        ],
+
+3. https://restcountries.eu/rest/v2/name/spain?fullText=true
+	
+[
+    {
+        "name": "Spain",
+        "topLevelDomain": [
+            ".es"
+        ],
+        "alpha2Code": "ES",
+        "alpha3Code": "ESP",
+        "callingCodes": [
+            "34"
+        ],
+        "capital": "Madrid",
+        "altSpellings": [
+            "ES",
+            "Kingdom of Spain",
+            "Reino de España"
+        ],
+
+4. https://restcountries.eu/rest/v2/alpha/co
+	
+{
+    "name": "Colombia",
+    "topLevelDomain": [
+        ".co"
+    ],
+    "alpha2Code": "CO",
+    "alpha3Code": "COL",
+    "callingCodes": [
+        "57"
+    ],
+    "capital": "Bogotá",
+    "altSpellings": [
+        "CO",
+        "Republic of Colombia",
+        "República de Colombia"
+    ],
+
+5. https://restcountries.eu/rest/v2/alpha?codes=col;jp;ee
+	
+[
+    {
+        "name": "Japan",
+        "topLevelDomain": [
+            ".jp"
+        ],
+        "alpha2Code": "JP",
+        "alpha3Code": "JPN",
+        "callingCodes": [
+            "81"
+        ],
+        "capital": "Tokyo",
+        "altSpellings": [
+            "JP",
+            "Nippon",
+            "Nihon"
+        ],
+
+
+6. https://restcountries.eu/rest/v2/currency/xaf
+	
+	[
+    {
+        "name": "Cameroon",
+        "topLevelDomain": [
+            ".cm"
+        ],
+        "alpha2Code": "CM",
+        "alpha3Code": "CMR",
+        "callingCodes": [
+            "237"
+        ],
+        "capital": "Yaoundé",
+        "altSpellings": [
+            "CM",
+            "Republic of Cameroon",
+            "République du Cameroun"
+        ],
+
+7. https://restcountries.eu/rest/v2/lang/fr
+	
+	[
+    {
+        "name": "Belgium",
+        "topLevelDomain": [
+            ".be"
+        ],
+        "alpha2Code": "BE",
+        "alpha3Code": "BEL",
+        "callingCodes": [
+            "32"
+        ],
+        "capital": "Brussels",
+        "altSpellings": [
+            "BE",
+            "België",
+            "Belgie",
+            "Belgien",
+            "Belgique",
+            "Kingdom of Belgium",
+            "Koninkrijk België",
+            "Royaume de Belgique",
+            "Königreich Belgien"
+        ],
+
+
+8. https://restcountries.eu/rest/v2/capital/paris
+
+	[
+    {
+        "name": "France",
+        "topLevelDomain": [
+            ".fr"
+        ],
+        "alpha2Code": "FR",
+        "alpha3Code": "FRA",
+        "callingCodes": [
+            "33"
+        ],
+        "capital": "Paris",
+        "altSpellings": [
+            "FR",
+            "French Republic",
+            "République française"
+        ],
+
+9. https://restcountries.eu/rest/v2/callingcode/212
+
+	[
+    {
+        "name": "Morocco",
+        "topLevelDomain": [
+            ".ma"
+        ],
+        "alpha2Code": "MA",
+        "alpha3Code": "MAR",
+        "callingCodes": [
+            "212"
+        ],
+        "capital": "Rabat",
+        "altSpellings": [
+            "MA",
+            "Kingdom of Morocco",
+            "Al-Mamlakah al-Maġribiyah"
+        ],
+
+10. https://restcountries.eu/rest/v2/region/europe
+		
+	[
+    {
+        "name": "Åland Islands",
+        "topLevelDomain": [
+            ".ax"
+        ],
+        "alpha2Code": "AX",
+        "alpha3Code": "ALA",
+        "callingCodes": [
+            "358"
+        ],
+        "capital": "Mariehamn",
+        "altSpellings": [
+            "AX",
+            "Aaland",
+            "Aland",
+            "Ahvenanmaa"
+        ],
+
+11. https://restcountries.eu/rest/v2/regionalbloc/al
+
+	[
+    {
+        "name": "Algeria",
+        "topLevelDomain": [
+            ".dz"
+        ],
+        "alpha2Code": "DZ",
+        "alpha3Code": "DZA",
+        "callingCodes": [
+            "213"
+        ],
+        "capital": "Algiers",
+        "altSpellings": [
+            "DZ",
+            "Dzayer",
+            "Algérie"
+        ],
+
+12. https://restcountries.eu/rest/v2/all?fields=name;capital;currencies
+
+	[
+    {
+        "currencies": [
+            {
+                "code": "AFN",
+                "name": "Afghan afghani",
+                "symbol": "؋"
+            }
+        ],
+        "name": "Afghanistan",
+        "capital": "Kabul"
+    },
+
